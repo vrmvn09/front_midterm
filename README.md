@@ -14,7 +14,17 @@ A simple, responsive vCard-style website built with HTML, CSS, and JavaScript. T
 - Google Fonts and Ionicons
 
 ## Project Structure
-├── assets │ ├── css/style.css │ ├── images (profile, icons, etc.) │ └── js/script.js ├── index.html ├── education.html ├── family.html ├── hobbies.html ├── contact.html └── README.md
+
+├── assets
+│ ├── css/style.css
+│ ├── images (profile, icons, etc.)
+│ └── js/script.js
+├── index.html
+├── education.html
+├── family.html
+├── hobbies.html
+├── contact.html
+└── README.md
 
 ## Installation
 1. Clone the repository:
