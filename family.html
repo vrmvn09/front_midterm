@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Family</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!-- Custom CSS link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Google Font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Arman Urstem" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name">Arman Urstem</h1>
+          <p class="title">Student at SDU</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:armanurstem@gmail.com" class="contact-link">armanurstem@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+7747806317" class="contact-link">+7747806317</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2005-05-09">May 9, 2005</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Almaty, Kazakhstan</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/vr.mvn/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a href="index.html" class="navbar-link">About</a></li>
+          <li class="navbar-item"><a href="education.html" class="navbar-link">Education</a></li>
+          <li class="navbar-item"><a href="family.html" class="navbar-link active">Family</a></li>
+          <li class="navbar-item"><a href="hobbies.html" class="navbar-link">Hobbies</a></li>
+          <li class="navbar-item"><a href="contact.html" class="navbar-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Family Section -->
+      <article class="family active" data-page="family">
+        <header>
+          <h2 class="h2 article-title">Family</h2>
+        </header>
+
+        <!-- Family Members Grid -->
+        <section class="family-members">
+          <div class="family-grid">
+            
+            <!-- Family Member 1 -->
+            <div class="family-member">
+              <div class="family-icon-box">
+                <ion-icon name="man-outline"></ion-icon>
+              </div>
+              <h3 class="family-member-title">Father, 64 years</h3>
+              <p class="family-member-description">
+                My father is a wise and supportive person who always helps me with life advice and supports me in difficult situations.
+              </p>
+            </div>
+
+            <!-- Family Member 2 -->
+            <div class="family-member">
+              <div class="family-icon-box">
+                <ion-icon name="woman-outline"></ion-icon>
+              </div>
+              <h3 class="family-member-title">Mother, 64 years</h3>
+              <p class="family-member-description">
+                My mother is caring and hardworking. She always inspires me with her example and supports my endeavors.
+              </p>
+            </div>
+
+            <!-- Family Member 3 -->
+            <div class="family-member">
+              <div class="family-icon-box">
+                <ion-icon name="woman-outline"></ion-icon>
+              </div>
+              <h3 class="family-member-title">Older Sister, 34 years</h3>
+              <p class="family-member-description">
+                My older sister is my friend and mentor, always ready to help and support me in any endeavor.
+              </p>
+            </div>
+
+            <!-- Family Member 4 -->
+            <div class="family-member">
+              <div class="family-icon-box">
+                <ion-icon name="woman-outline"></ion-icon>
+              </div>
+              <h3 class="family-member-title">Younger Sister, 33 years</h3>
+              <p class="family-member-description">
+                My younger sister is my loyal ally. She has helped me in my pursuits, shared her knowledge, and we enjoy spending time together.
+              </p>
+            </div>
+
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
